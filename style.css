@@ -185,7 +185,7 @@ body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-
         overflow: hidden;
         text-overflow: clip;
         border-right: 1px solid #CCC;
-        padding-right: 16px;
+        padding-right: 1px;
     }
 
     .tag-row a {
@@ -315,6 +315,7 @@ a {
 .text-s {
     font-size: 13px !important;
     line-height: 18px;
+    color: #880000;
 }
 
 .text-m {
@@ -340,7 +341,7 @@ a {
 .text-dangky {
 
     color: crimson;
-    font-weight: bold;
+    font-style: italic;
     font-size: 15px;
 }
 
