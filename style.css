@@ -41,6 +41,9 @@ GLOBAL STYLE
 .icon-list {
     margin-bottom: 40px;
 }
+.advs-box-content p {
+    min-height: 280px  !important;
+}
 /* .icon-list {
     display: flex!important;
 } */
