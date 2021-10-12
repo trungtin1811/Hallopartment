@@ -33,6 +33,25 @@ Table of contents
 GLOBAL STYLE
 ==============================
 */
+.xxxx{
+    display: flex;
+    justify-content: center;
+}
+.register-btn {    
+    padding: 12px 16px!important;
+    font-size: 25px!important;
+    background-color: #880000!important;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+.register-btn:hover {    
+    background-color: #880000!important;
+    opacity: 90%!important;
+    padding-left: 40px!important;
+}
+
+}
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,400italic);
 
 body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p {
@@ -2185,7 +2204,7 @@ BACKGROUND OVERLAY & GRADIENT
 ==============================
 */
 .subtitle{
-    color: #7F2116;
+    color: #880000;
     font-size: 22px;
 }
 .bg-overlay {
@@ -6123,6 +6142,9 @@ header .social-group a i.fa, header .custom-area, .navbar-default .navbar-nav li
 header .navbar {
     border-color: #353535;
     border-radius: 0;
+    background-color: #272727;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
 }
 
 
@@ -6820,7 +6842,7 @@ footer .tag-row span {
 
 .footer-section {
     height: 600px;
-    background-image: url('images/footer-bg.jpg');
+    background-image: url('images/events/Footage_backfinal.jpg');
 }
 
     .footer-section hr.h {
