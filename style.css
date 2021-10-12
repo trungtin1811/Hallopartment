@@ -36,6 +36,24 @@ GLOBAL STYLE
 .xxxx{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.icon-list {
+    margin-bottom: 40px;
+}
+/* .icon-list {
+    display: flex!important;
+} */
+.list-item {
+    display: inline!important;
+}
+.social-group [class*="tiktok"]:hover {
+    background-color: #2f3b63;
+}
+.list-item img{
+    width: 20px;   
+    margin-top: -12px;
+    margin-right: -6px;
 }
 .register-btn {    
     padding: 12px 16px!important;
@@ -157,7 +175,7 @@ body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-
     text-overflow: ellipsis;
 }
 
-    .tag-row span {
+    .tag-row span, .tag-row a {
         margin: 0 15px 0 0;
         color: #9C9C9C;
         white-space: nowrap;
@@ -1940,6 +1958,7 @@ header.side-menu-lateral .mi-menu .sidebar-nav ul ul a, .mi-menu .sidebar-nav li
     .side-menu-fixed .social-group {
         margin: 15px;
         display: block;
+        text-align: right;
     }
 
         .side-menu-fixed .social-group a {
@@ -4899,12 +4918,17 @@ button.navbar-toggle {
     .side-menu-container .container {
         width: 950px;
     }
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .section-two-blocks div.content {
         width: 460px;
     }
+    .tag-row{ 
+        justify-content: center;
+    }
+    
 }
 
 @media (max-width:768px) {
@@ -4912,7 +4936,9 @@ button.navbar-toggle {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-
+.advs-box {
+    margin: 20px 0;
+}
     .text-xxl {
         font-size: 45px !important;
     }
@@ -5589,6 +5615,9 @@ button.navbar-toggle {
 
     .tag-row {
         text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
         .tag-row.icon-row span {
@@ -5740,6 +5769,14 @@ MOBILE - SMALL SCREENS
 ==============================
 */
 @media (min-width: 769px) and (max-width: 1200px) {
+    .social-group,
+    .tag-row {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
 }
 
 @media (min-width: 769px) and (max-width: 1500px) {
@@ -5910,7 +5947,7 @@ body,.section-empty,.niche-box-team .content-box,.list-group-item {
     .btn i, .panel-default > .panel-heading, .panel-default .panel-footer, .popover-title, .tag-row i.circle, .advs-box-side-icon i.circle,
     .call-action-box, .call-action-box i, .call-action-box p, .social-group i:hover, header .social-group a i:hover, .header-bootstrap i,
     .header-base .title-base h1, .header-base .title-base p, .header-base .breadcrumb.b a, .breadcrumb > .active, .img-box > i, .img-box span > i,
-    .img-box .caption > i, .pagination i, .dropdown-toggle i.caret, .circle-button:hover > i, .block-infos .block-comment i, .circle-button i, .btn.circle-button i {
+    .img-box .caption > i, .pagination i, .dropdown-toggle i.caret, .circle-button:hover > i, .block-infos .block-comment i, .circle-button i, .btn.circle-button i, .tag-row a {
         color: #FFF;
     }
 
@@ -6743,7 +6780,7 @@ i.square {
 }
 
 
-.footer-minimal .tag-row span {
+.footer-minimal .tag-row span{
     letter-spacing: 4px;
     font-size: 11px;
 }
@@ -6786,7 +6823,7 @@ i.square {
         background-color: #383838 !important;
     }
 
-footer .tag-row span {
+footer .tag-row span, .tag-row a {
     font-weight: 600;
     color: #FAFAFA;
 }
@@ -6934,6 +6971,8 @@ footer .tag-row span {
     .half-side hr.h {
         width: 100%;
     }
+
+    
 
     .big-event .navbar-main.navbar-middle ul.nav > li.scroll-show {
         display: none !important;
