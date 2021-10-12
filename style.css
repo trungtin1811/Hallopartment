@@ -72,7 +72,7 @@ GLOBAL STYLE
     padding-left: 40px!important;
 }
 
-}
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,400italic);
 
 body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p {
@@ -337,8 +337,11 @@ a {
     line-height: 110px;
 }
 
-.text-bold {
-    font-weight: 900;
+.text-dangky {
+
+    color: crimson;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .col-center {
@@ -2118,7 +2121,7 @@ navbar-fixed-top .side-menu-fixed .brand {
 }
 
 @media (min-width:769px) {
-    .side-menu-lateral .side-menu li:hover >; ul {
+    .side-menu-lateral .side-menu li:hover > ul {
         display: block !important;
         height: auto !important;
         z-index: 1000;
