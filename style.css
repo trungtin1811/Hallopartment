@@ -45,7 +45,8 @@ GLOBAL STYLE
 }
 @media  (max-width: 975px){
     .advs-box-multiple .img-box {
-        min-height: 800px;
+        height: auto;
+        max-height: none!important;
     }
     .advs-box-content p{
         min-height: none!important;
