@@ -33,6 +33,10 @@ Table of contents
 GLOBAL STYLE
 ==============================
 */
+.grid-item .text-box{
+    margin-top: 12px;
+}
+
 @media  (max-width: 790px){
     
     .navbar-brand img {
