@@ -37,6 +37,9 @@ GLOBAL STYLE
     margin-top: 12px;
 }
 
+.grid-item {
+    margin-bottom: 40px;
+}
 @media  (max-width: 790px){
     
     .navbar-brand img {
