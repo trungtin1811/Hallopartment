@@ -33,6 +33,36 @@ Table of contents
 GLOBAL STYLE
 ==============================
 */
+@media  (max-width: 790px){
+    
+    .navbar-brand img {
+       height: 60px;
+    }
+    .navbar-brand.center, .scroll-hide, .navbar-main ,.scroll-hide .container {
+        height: 80px!important;
+        margin: 0!important;
+    }
+}
+@media  (max-width: 975px){
+    .advs-box-multiple .img-box {
+        min-height: 800px;
+    }
+    .advs-box-content p{
+        min-height: none!important;
+    }
+    
+}
+    
+@media (min-width: 975px) {
+.advs-box-content p {
+    min-height: 280px !important;
+}
+}
+.scroll-hide .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .xxxx{
     display: flex;
     justify-content: center;
@@ -41,9 +71,7 @@ GLOBAL STYLE
 .icon-list {
     margin-bottom: 40px;
 }
-.advs-box-content p {
-    min-height: 280px  !important;
-}
+
 /* .icon-list {
     display: flex!important;
 } */
@@ -611,7 +639,6 @@ header > .navbar {
 .navbar-brand.center {
     text-align: center;
     width: 100%;
-    width: calc(100% - 30px);
 }
 
     .navbar-brand.center > img {
@@ -2167,9 +2194,9 @@ navbar-fixed-top .side-menu-fixed .brand {
         overflow: visible !important;
     }
 
-    .navbar-header .hamburger-button, .side-menu-header .navbar-header .navbar-brand {
+    /* .navbar-header .hamburger-button, .side-menu-header .navbar-header .navbar-brand {
         display: none;
-    }
+    } */
 }
 /* 
 ==============================
@@ -5225,16 +5252,14 @@ button.navbar-toggle {
     }
 
         .navbar-main.navbar-middle ul.nav > li.logo-item, .navbar-middle .scroll-hide {
-            display: none !important;
+           
+        }
+        .navbar-brand {
+            max-width: 100%;
         }
 
     .navbar-main.navbar-middle ul.nav {
         margin: 7.5px -15px !important;
-    }
-
-    .navbar-middle .navbar-right {
-        position: static;
-        margin: 0 -15px;
     }
 
     .navbar-main.navbar-middle .navbar-right ul.lan-menu.nav {
@@ -5786,13 +5811,22 @@ MOBILE - SMALL SCREENS
         flex-wrap: wrap;
         justify-content: center;
     }
-   
+    
 }
+@media (min-width: 975px) and (max-width: 1200px) {
+    .advs-box-multiple .img-box {
+        max-height: 300px!important;
+    }
+   .advs-box-content p{
+       min-height: 350px!important;
+   }
 
+}
 @media (min-width: 769px) and (max-width: 1500px) {
     .side-menu-container .container {
         width: 950px;
     }
+    
 }
 /*
 ==============================
@@ -5823,7 +5857,6 @@ THEME SKIN
 body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p, .text-color {
     color: #cecece;
     line-height: 26px;
-    min-height: 240px;
 }
 
 .header-title h1, .header-title h2, .header-title h3, .header-slider h1, .header-slider h2, .header-slider h3, .header-video h1, .header-video h2, .header-video h3, .header-base h1, .header-base h2, .header-base h3, .header-animation h1, .header-animation h2, .header-animation h3, .header-bootstrap h1, .advs-box h4, .niche-box-blog .block-title h2, .block-infos .bd-day, footer .main-title, footer i, footer .social-group i, .album-title, .adv-img h2, .adv-img h2, .adv-circle h2, .caption-bottom h2, .title-base h1, .title-icon h2, .title-icon h1, .title-base.title-small h2, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .icon-box-cell label, .icon-list .list-item label, .icon-list .list-item label, .icon-box label, .counter[data-to], progress-bar, .countdown .countdown-values, .progress-label, .progress-circle .inner-circle .counter-circle, inner-circle .sub, .timeline-title, .btn-default, .btn, .circle-button, .pagination > li > a, .nav-tabs > li > a, .list-items .list-item h3 {
