@@ -102,11 +102,15 @@ GLOBAL STYLE
     min-height: none !important;
   }
   .img-box {
-    max-height: none !important;
+    /* max-height: none !important;
     height: auto !important;
     width: unset;
     margin-bottom: 20px !important;
-    margin-top: -40px !important; 
+    margin-top: -40px !important;  */
+  }
+  .inner-text {
+    margin-left: 20px;
+    height: 100%;
   }
 }
 
