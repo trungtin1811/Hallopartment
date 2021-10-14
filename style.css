@@ -38,6 +38,9 @@ GLOBAL STYLE
   --red-color: #e50505;
 }
 
+.my-font{
+  font-family: 'SP3 - Traveling Typewriter Regular';
+}
 .scroll-show,
 .scroll-hide.hidden {
   height: 80px !important;
