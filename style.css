@@ -37,9 +37,12 @@ GLOBAL STYLE
 :root {
   --red-color: #e50505;
 }
-
+@font-face {
+  font-family: myFont;
+  src: url(css/fonts/SP3\ -\ Traveling\ Typewriter.otf);
+}
 .my-font{
-  font-family: 'SP3 - Traveling Typewriter Regular';
+  font-family: myFont;
 }
 .scroll-show,
 .scroll-hide.hidden {
