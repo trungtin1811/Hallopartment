@@ -44,6 +44,8 @@ GLOBAL STYLE
 .my-font{
   font-family: myFont;
 }
+
+
 .scroll-show,
 .scroll-hide.hidden {
   height: 80px !important;
@@ -434,7 +436,7 @@ a {
 
 .text-dangky {
   color: crimson;
-  font-style: italic;
+  font-style: normal;
   font-size: 20px;
 }
 
