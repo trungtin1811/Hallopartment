@@ -101,13 +101,7 @@ GLOBAL STYLE
   .advs-box-content p {
     min-height: none !important;
   }
-  .img-box {
-    max-height: none !important;
-    height: auto !important;
-    width: unset;
-    margin-bottom: 20px !important;
-    margin-top: -40px !important; 
-  }
+
 }
 
 @media (min-width: 975px) {
