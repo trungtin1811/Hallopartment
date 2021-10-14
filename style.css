@@ -48,6 +48,7 @@ GLOBAL STYLE
 }
 .hidden .container .navbar-brand img {
     height: 50px;
+    width: auto;
 }
 .grid-item .text-box {
   margin-top: 12px;
