@@ -44,6 +44,23 @@ GLOBAL STYLE
 .my-font{
   font-family: myFont;
 }
+.grid-sponsor {
+  margin: 0 -16px;
+}
+.sponsor-item{
+  display: inline-block;
+  margin: 0 16px;
+}
+.sponsor-img-box {
+  height: 100%;
+}
+.sponsor-item .sponsor-img-box img{
+  height: 100%;
+  width: auto;
+  max-height: 80px;
+  margin-bottom: 8px;
+}
+
 
 
 .scroll-show,
