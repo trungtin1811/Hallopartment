@@ -120,10 +120,14 @@ GLOBAL STYLE
   }
 
 }
+.activities {
+  min-height: 500px;
+}
+
 
 @media (min-width: 975px) {
   .advs-box-content p {
-    min-height: 280px !important;
+    min-height: 260px !important;
   }
 }
 .scroll-hide .container {
@@ -6269,9 +6273,6 @@ html.iex .img-box img {
 THEME SKIN
 ===================
 */
-.activities {
-  max-height: 140px;
-}
 body,
 .adv-img p,
 .caption-bottom p,
