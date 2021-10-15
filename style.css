@@ -133,7 +133,7 @@ GLOBAL STYLE
 
 @media (min-width: 975px) {
   .advs-box-content p {
-    min-height: 260px !important;
+    min-height: 240px !important;
   }
   
 }
@@ -6250,7 +6250,7 @@ MOBILE - SMALL SCREENS
     max-height: 300px !important;
   }
   .advs-box-content p {
-    min-height: 350px !important;
+    min-height: 300px !important;
   }
 }
 @media (min-width: 769px) and (max-width: 1500px) {
