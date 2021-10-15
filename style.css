@@ -118,6 +118,12 @@ GLOBAL STYLE
   .advs-box-content p {
     min-height: none !important;
   }
+  .activities p {
+    min-height: unset !important;
+  }
+  .activities  {
+    min-height: unset !important;
+  }
 
 }
 .activities {
@@ -129,6 +135,7 @@ GLOBAL STYLE
   .advs-box-content p {
     min-height: 260px !important;
   }
+  
 }
 .scroll-hide .container {
   display: flex;
@@ -6803,7 +6810,8 @@ header .minisocial-group i,
 .nav.inner.ms-rounded li a,
 .btn-default,
 .btn,
-.advs-box.boxed .advs-box-content,
+.advs-box.boxed .advs-box-content, 
+.advs-box.boxed .activities,
 .bs-panel,
 .block-infos .block-data,
 .tag-row i.circle,
@@ -6814,6 +6822,8 @@ header .minisocial-group i,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .advs-box-top-icon-img.boxed .advs-box-content,
+.advs-box-top-icon-img.boxed .activities,
+.advs-box-top-icon-img.boxed-inverse .activities,
 .advs-box-top-icon-img.boxed-inverse .advs-box-content {
   border-color: #272727;
 }
@@ -7089,7 +7099,10 @@ header .custom-area {
   color: #fff;
 }
 .advs-box-top-icon-img.boxed .advs-box-content,
-.advs-box-top-icon-img.boxed-inverse .advs-box-content {
+.advs-box-top-icon-img.boxed-inverse .advs-box-content,
+.advs-box-top-icon-img.boxed .activities,
+.advs-box-top-icon-img.boxed-inverse .activities
+ {
   border-top-width: 1px;
   border-top-style: solid;
 }
