@@ -60,13 +60,21 @@ GLOBAL STYLE
   max-height: 80px;
   margin-bottom: 8px;
 }
-@media (min-width: 975px) {
+@media (min-width: 1024px) {
   .advs-box-content p {
     min-height: 240px !important;
   }
   .activities p {
     min-height: unset;
     height: 360px;
+  }
+}
+
+@media (min-width: 975px) and (max-width: 1023px) {
+  
+  .activities p {
+    min-height: unset;
+    height: 452px !important;
   }
 }
 
