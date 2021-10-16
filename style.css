@@ -60,7 +60,7 @@ GLOBAL STYLE
   max-height: 80px;
   margin-bottom: 8px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1187px) {
   .advs-box-content p {
     min-height: 240px !important;
   }
@@ -70,8 +70,8 @@ GLOBAL STYLE
   }
 }
 
-@media (min-width: 975px) and (max-width: 1023px) {
-  
+@media (min-width: 975px) and (max-width: 1200px) {
+
   .activities p {
     min-height: unset;
     height: 452px !important;
