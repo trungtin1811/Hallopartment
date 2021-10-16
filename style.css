@@ -60,11 +60,16 @@ GLOBAL STYLE
   max-height: 80px;
   margin-bottom: 8px;
 }
-
-.activities p {
-  min-height: unset;
-  height: 360px;
+@media (min-width: 975px) {
+  .advs-box-content p {
+    min-height: 240px !important;
+  }
+  .activities p {
+    min-height: unset;
+    height: 360px;
+  }
 }
+
 
 .scroll-show,
 .scroll-hide.hidden {
@@ -134,12 +139,7 @@ GLOBAL STYLE
 }
 
 
-@media (min-width: 975px) {
-  .advs-box-content p {
-    min-height: 240px !important;
-  }
-  
-}
+
 .scroll-hide .container {
   display: flex;
   justify-content: center;
