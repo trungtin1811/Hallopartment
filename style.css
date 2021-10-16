@@ -61,7 +61,10 @@ GLOBAL STYLE
   margin-bottom: 8px;
 }
 
-
+.activities p {
+  min-height: unset;
+  height: 360px;
+}
 
 .scroll-show,
 .scroll-hide.hidden {
