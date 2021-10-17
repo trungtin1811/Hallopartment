@@ -68,6 +68,9 @@ GLOBAL STYLE
     min-height: unset;
     height: 360px;
   }
+  .advs-box-content h3 {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 975px) and (max-width: 1200px) {
